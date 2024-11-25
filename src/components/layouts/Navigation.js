@@ -2,7 +2,7 @@ import {Button, Container, Nav, Navbar} from 'react-bootstrap';
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className='bg-emerald-500 h-16' >
       <Container fluid>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -11,14 +11,13 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">소개</Nav.Link>
-            <Nav.Link href="#action2">입양</Nav.Link>
-            <Nav.Link href="#action2">자원봉사</Nav.Link>
-            <Nav.Link href="#action2">후원</Nav.Link>
+            <button href="#action1" className='pl-7 pr-16 text-teal-50 text-2xl font-bold'>Home</button>
+            <button href="#action2" className='pr-16 text-teal-50 text-2xl font-bold'>119 구조된 반려동물 찾기 서비스</button>
+            <button href="#action2" className='pr-16 text-teal-50 text-2xl font-bold'>지도로 찾아보기</button>
+            <button href="#action2" className='pr-16 text-teal-50 text-2xl font-bold'>커뮤니티</button>
+            <button href="#action2" className='pr-16 text-teal-50 text-2xl font-bold'>캘린더</button>
+            <button href="#action2" className='pr-16 text-teal-50 text-2xl font-bold'>후원</button>
           </Nav>
-            <Button variant="outline-success">로그인</Button>
-            <Button variant="outline-success">회원가입</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
