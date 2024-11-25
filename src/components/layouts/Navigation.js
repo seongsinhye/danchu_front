@@ -1,4 +1,5 @@
-import {Button, Container, Nav, Navbar} from 'react-bootstrap';
+import {Container, Nav, Navbar} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function NavScrollExample() {
   return (
@@ -11,12 +12,12 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <button href="#action1" className='pl-7 pr-16 text-teal-50 text-2xl font-bold'>Home</button>
-            <button href="#action2" className='pr-16 text-teal-50 text-2xl font-bold'>119 구조된 반려동물 찾기 서비스</button>
-            <button href="#action2" className='pr-16 text-teal-50 text-2xl font-bold'>지도로 찾아보기</button>
-            <button href="#action2" className='pr-16 text-teal-50 text-2xl font-bold'>커뮤니티</button>
-            <button href="#action2" className='pr-16 text-teal-50 text-2xl font-bold'>캘린더</button>
-            <button href="#action2" className='pr-16 text-teal-50 text-2xl font-bold'>후원</button>
+            <Link to="/" className='pl-7 pr-16 text-teal-50 text-2xl font-bold no-underline'>Home</Link>
+            <Link to="#action2" className='pr-16 text-teal-50 text-2xl font-bold no-underline'>119 구조된 반려동물 찾기 서비스</Link>
+            <Link to="/gis" className='pr-16 text-teal-50 text-2xl font-bold no-underline'>지도로 찾아보기</Link>
+            <Link to="#action2" className='pr-16 text-teal-50 text-2xl font-bold no-underline'>커뮤니티</Link>
+            <Link to="#action2" className='pr-16 text-teal-50 text-2xl font-bold no-underline'>캘린더</Link>
+            <Link to="#action2" className='pr-16 text-teal-50 text-2xl font-bold no-underline'>후원</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
