@@ -13,7 +13,7 @@ function NavScrollExample() {
             navbarScroll
           >
             <Link to="/" className='pl-7 pr-16 text-teal-50 text-2xl font-bold no-underline'>Home</Link>
-            <Link to="#action2" className='pr-16 text-teal-50 text-2xl font-bold no-underline'>119 구조된 반려동물 찾기 서비스</Link>
+            <Link to="#action2" className='pr-16 text-teal-50 text-2xl font-bold no-underline'>구조 동물 조회 서비스</Link>
             <Link to="/gis" className='pr-16 text-teal-50 text-2xl font-bold no-underline'>지도로 찾아보기</Link>
             <Link to="#action2" className='pr-16 text-teal-50 text-2xl font-bold no-underline'>커뮤니티</Link>
             <Link to="#action2" className='pr-16 text-teal-50 text-2xl font-bold no-underline'>캘린더</Link>

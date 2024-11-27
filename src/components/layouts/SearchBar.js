@@ -1,5 +1,6 @@
 import { Container, Form, Navbar } from 'react-bootstrap';
 import { IoSearchSharp } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 
 function NavScrollExample() {
@@ -23,8 +24,8 @@ function NavScrollExample() {
         </div>
 
         <div className='flex justify-end'>
-          <button className='pr-3 text-teal-600 text-xl'>로그인</button>
-          <button className='pr-3 text-teal-600 text-xl'>회원가입</button>
+          <Link to="/login" className='pr-3 text-teal-600 text-xl no-underline'>로그인</Link>
+          <Link to="/join" className='pr-3 text-teal-600 text-xl no-underline'>회원가입</Link>
         </div>
       </Container>
     </Navbar>

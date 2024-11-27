@@ -100,3 +100,45 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+.login {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 37%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(206, 226, 195, 0.945);
+  border-radius: 10%;
+}
+
+.userFrame {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.userInput {
+  width: 330px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  padding-left: 10px;
+  margin: 10px;
+}
+.personIcon {
+  margin: 0 auto;
+  font-size: 100px;
+  margin-bottom: 20px;
+  color: rgb(96, 96, 247);
+}
+.userButton {
+  margin: 0 auto;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #777676;
+  background-color: #d0caca;
+  border-radius: 2px;
+}
