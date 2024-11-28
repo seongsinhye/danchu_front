@@ -142,3 +142,23 @@ body {
   background-color: #d0caca;
   border-radius: 2px;
 }
+
+.joinForm {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 37%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  width: 400px;
+  height: 600px;
+  background-color: rgba(147, 187, 125, 0.945);
+  border-radius: 10%;
+}
+
+.joinPersonIcon {
+  margin: 0 auto;
+  font-size: 100px;
+  margin-bottom: 20px;
+  color: rgb(226, 112, 209);
+}

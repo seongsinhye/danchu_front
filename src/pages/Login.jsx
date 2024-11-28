@@ -5,7 +5,7 @@ import UserButton from '../components/common/UserButton';
 import { useNavigate } from 'react-router-dom';
 import { IoPersonCircleOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
-import api from '../util/fetchFunc';
+import * as api from '../util/fetchFunc';
 
 export default function Login() {
   const [userInfo, setUserInfo] = useState({
